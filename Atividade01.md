@@ -1,43 +1,41 @@
 # Aula dia 07/04
-select * from matricula
 
-select nome, curso from aluno
+1 - select * from matricula
 
-select * from aluno where curso = 'Computacao'
+2 - select nome, curso from aluno
 
-select * from aluno where cidade = 'Maringa'
+3 - select * from aluno where curso = 'Computacao'
 
-select * from aluno order by nome
+4 - select * from aluno where cidade = 'Maringa'
 
-select * from aluno order by ano_ingresso
+5 - select * from aluno order by nome
 
-select * from aluno where ano_ingresso >= 2022
+6 - select * from aluno order by ano_ingresso
 
-select * from aluno where nome like 'A%'
+7 - select * from aluno where ano_ingresso >= 2022
 
-select * from aluno where curso = 'Computacao' or 'Engenharia'
+8 - select * from aluno where nome like 'A%'
 
-select * from disciplina where carga_horaria >60 and carga_horaria < 80
+9 - select * from aluno where curso = 'Computacao' or curso = 'Engenharia'
 
-select count (*) from aluno
+10 - select * from disciplina where carga_horaria > 60 and carga_horaria < 80
 
-select AVG(nota) from matricula
+11 - select count(*) from aluno
 
-select max(nota) from matricula
+12 - select AVG(nota) from matricula
 
-select min(nota) from matricula
+13 - select max(nota) from matricula
 
-select SUM(carga_horaria) from disciplina
+14 - select min(nota) from matricula
 
-select curso, count(*) from aluno group by curso
+15 - select SUM(carga_horaria) from disciplina
 
-select cidade, count(*) from aluno group by cidade
+16 - select curso, count(*) from aluno group by curso
 
-select situacao, AVG(nota) from matricula group by situacao
+17 - select cidade, count(*) from aluno group by cidade
 
-select semestre, count(*) from matricula group by semestre
+18 - select situacao, AVG(nota) from matricula group by situacao
 
-select curso, count(*) from aluno group by curso having count(*) > 1
+19 - select semestre, count(*) from matricula group by semestre
 
-
-
+20 - select curso, count() from aluno group by curso having count() > 1
