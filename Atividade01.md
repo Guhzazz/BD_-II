@@ -42,9 +42,12 @@
 
 21 - select nome, situacao from aluno join matricula on (aluno.id = matricula.aluno_id);
 
-22 - 
+22 - select a.nome , d.nome
+    from aluno as a JOIN disciplina as d on(a.id = d.id);
 
-23 - 
+23 - select a.nome, d.nome, m.nota
+from matricula as m join disciplina as d join aluno as a 
+ON(m.aluno_id = a.id and d.id = m.disciplina_id);
 
 24 - 
 
