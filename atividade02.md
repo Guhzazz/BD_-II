@@ -1,4 +1,4 @@
-# Título Questões - Transações
+# Questões - Transações
 
 1. SImular uma conta bancária id, titular e saldo poitivo.
 2. ana: 1000, Bruno: 500, Carlos: 300, Daniela: 800.
@@ -22,5 +22,7 @@
 20. Occorreira um tipo de leitura suja, pois os dados estariam desconexos.
 21. Garanntiu que os updates feitos dentro da transação não fossem aplicados.
 22. Precisa expliar porra?
-23. 
+23. Verificar se as informações permanecem coerentes com as alteraçẽos feitas
+24. porque bancos de dados são projetados para garantir que múltiplos passos de uma operação de negócios sejam tratados como uma única "unidade lógica de trabalho".Garantido pelas propriedades ACID.
+25. 
 
