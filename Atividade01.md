@@ -1,26 +1,34 @@
 # Aula dia 07/04
 
 1.
- `select * frommatricula`
+ `select * frommatricula;`
 
 2.
-``` select nome, curso from aluno```
+``` select nome, curso from aluno;```
 
-3 - select * from aluno where curso = 'Computacao'
+3.
+```select * from aluno where curso = 'Computacao';```
 
-4 - select * from aluno where cidade = 'Maringa'
+4.
+```select * from aluno where cidade = 'Maringa';```
 
-5 - select * from aluno order by nome
+5.
+```select * from aluno order by nome;```
 
-6 - select * from aluno order by ano_ingresso
+6.
+```select * from aluno order by ano_ingresso;```
 
-7 - select * from aluno where ano_ingresso >= 2022
+7.
+```select * from aluno where ano_ingresso >= 2022;```
 
-8 - select * from aluno where nome like 'A%'
+8.
+```select * from aluno where nome like 'A%';```
 
-9 - select * from aluno where curso = 'Computacao' or curso = 'Engenharia'
+9.
+```select * from aluno where curso = 'Computacao' or curso = 'Engenharia';```
 
-10 - select * from disciplina where carga_horaria > 60 and carga_horaria < 80
+10.
+```select * from disciplina where carga_horaria > 60 and carga_horaria < 80;```
 
 11 - select count(*) from aluno
 
